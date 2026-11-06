@@ -43,19 +43,6 @@ quotes = []
 
 while True:
 
-
-
-    # everyA =  dataLogin.find_all("a")
-
-    # for a in everyA:
-
-    #     if a.text.strip().lower() == "logout":
-    #         break
-    #     else:
-    #         continue
-    
-
-
     divQuotes = dataLogin.find_all("div", class_="quote")
     
     for quote in divQuotes:
