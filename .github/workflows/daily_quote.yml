@@ -2,7 +2,7 @@ name: Send the quote to Discord Server
 
 on:
   schedule:
-    - cron: '13 6 * * *'
+    - cron: '00 12 * * *'
   workflow_dispatch:
 
 jobs:
