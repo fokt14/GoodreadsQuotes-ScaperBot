@@ -1,8 +1,6 @@
 name: Send the quote to Discord Server
 
 on:
-  push:
-    branches: [ main ]
   schedule:
     - cron: '13 6 * * *'
   workflow_dispatch:
